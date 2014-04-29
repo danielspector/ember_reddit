@@ -1,5 +1,8 @@
 <ul>
 {{#each}}
-  <li>{{this}}</li>
+  <li>
+    <p>{{this.data.title}}</p>
+    <img {{bind-attr src=this.data.url}}>
+  </li>
 {{/each}}
 </ul>
