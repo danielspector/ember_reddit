@@ -1,7 +1,7 @@
 {
   "name": "Ember Reddit",
   "namespace": "appkit",
-  "postinstall": "bower install; grunt dist"
+  "postinstall": "bower install; grunt dist",
   "APIMethod": "stub",
   "proxyURL": "http://localhost:8000",
   "proxyPath": "/api",
