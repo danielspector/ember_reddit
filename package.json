@@ -1,5 +1,5 @@
 {
-  "name": "Ember Reddit",
+  "name": "app-kit",
   "namespace": "appkit",
   "postinstall": "bower install; grunt dist",
   "APIMethod": "stub",
