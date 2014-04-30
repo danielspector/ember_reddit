@@ -4,10 +4,12 @@
 </form>
 
 <ul>
-{{#each}}
+{{#each model}}
   <li>
     <p>{{this.data.title}}</p>
     <img {{bind-attr src=this.data.url}}>
   </li>
+{{else}}
+  <p>The subreddit you selected has no pictures!</p>
 {{/each}}
 </ul>
